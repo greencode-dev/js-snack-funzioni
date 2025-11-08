@@ -15,7 +15,6 @@ function filterByInitial(words, letter) {
 console.log(filteredNames);
 
 //Stampa il risultato in pagina
-const resultElement = document.getElementById('result');
-resultElement.textContent = `Nomi filtrati per la lettera '${startingLetter}': ${filteredNames.join(', ')}`;
+document.getElementById('result').textContent = `Nomi filtrati per la lettera '${startingLetter}': ${filteredNames.join(', ')}`;
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]

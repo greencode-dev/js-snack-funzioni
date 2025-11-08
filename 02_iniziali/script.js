@@ -12,7 +12,6 @@ function iniziali(array) {
 console.log(iniziali(names));
 
 // Stampa in Pagina:
-const output = document.getElementById('result');
-output.innerHTML = iniziali(names);
+document.getElementById('result').innerHTML = iniziali(names);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]

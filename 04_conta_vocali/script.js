@@ -15,7 +15,6 @@ const vocaliContate = contaVocali(word);
 console.log(vocaliContate);
 
 //Stampa il risultato in pagina
-const resultElement = document.getElementById('result');
-resultElement.innerText = `Nella parola "${word}" ci sono ${vocaliContate} vocali.`;
+document.getElementById('result').innerText = `Nella parola "${word}" ci sono ${vocaliContate} vocali.`;
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
