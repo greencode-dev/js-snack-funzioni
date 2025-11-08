@@ -4,7 +4,7 @@ const names = ['Anna', 'Luca', 'Marco', 'Adele', 'Giovanni', 'Alessandra'];
 
 // Dichiara la funzione qui.
 function iniziali(array) {
-  return array.map((names) => names.charAt(0));
+  return array.map((name) => name.charAt(0));
 }
 
 // Invoca la funzione qui e stampa il risultato in console
