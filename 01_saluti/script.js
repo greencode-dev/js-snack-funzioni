@@ -11,8 +11,8 @@ function saluto(name) {
 
 console.log(saluto(userName));
 
-//Risultato atteso se si passa 'Mario': // ciao Mario
-
 // Stampa in Pagina:
 const output = document.getElementById('result');
 output.innerHTML = `Ciao ${userName}`;
+
+//Risultato atteso se si passa 'Mario': // ciao Mario

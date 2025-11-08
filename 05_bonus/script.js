@@ -27,7 +27,7 @@ function salutoDinamico(nome) {
 
 console.log(salutoDinamico(nome));
 
-//Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
-
 //Stampa il risultato in pagina
 document.getElementById('result').textContent = salutoDinamico(nome);
+
+//Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
