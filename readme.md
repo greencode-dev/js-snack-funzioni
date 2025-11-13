@@ -1,4 +1,4 @@
-# JS Snack Funzioni
+# JS Snack Functions
 
 Questa repository contiene una serie di piccoli esercizi (snack) per fare pratica con le funzioni in JavaScript.
 
